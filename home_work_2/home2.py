@@ -43,6 +43,21 @@
 # Вывод
 # 3 4 или 4 3
 
+# sum = int(input("enter summa: "))
+# mult = int(input("enter multi: "))
+# d = sum*sum-4*mult
+# if d > 0:
+#     x1 = (sum-pow(d, 0.5))//2
+#     x2 = (sum+pow(d, 0.5))//2
+#     y1 = sum-x1
+#     y2 = sum-x2
+#     print(f"{x1,y1} или {x2,y2}")
+# elif d == 0:
+#     x = sum/2
+#     y = sum-x
+#     print(f"{x,y}")
+# else:
+#     print("не имеет корней брат)")
 
 # ===================================== end =======================================
 
@@ -59,5 +74,12 @@
 # 24
 # Вывод
 # 1 2 4 8 16
+
+# num = int(input("enter num: "))
+# for i in range(num):
+#     if 2**i < num:
+#         print(2**i, end=" ")
+#     if 2**1 >= num:
+#         break
 
 # ===================================== end =======================================
