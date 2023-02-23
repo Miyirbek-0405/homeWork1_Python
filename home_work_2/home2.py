@@ -23,9 +23,9 @@
 #         cout_a += 1
 #     else:
 #         cout_b += 1
-# if cout_a > cout_b:
+# if cout_a < cout_b:
 #     print(cout_a)
-# elif cout_a < cout_b:
+# elif cout_b < cout_a:
 #     print(cout_b)
 # else:
 #     print("равно")
